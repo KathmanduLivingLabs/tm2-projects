@@ -1,0 +1,86 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: kll.460c4d2a
+  rev: s-ed29721f
+  saveCenter: true
+attribution: OpenStreetMap Volunteers.
+center: 
+  - 85.3047
+  - 27.799
+  - 9
+description: Damage Assessments taken from Digital Globe imagery.
+Layer: 
+  - id: brownfield
+    Datasource: 
+      file: /Users/prabhaspokharel/Downloads/brownfield.geojson
+      layer: OGRGeoJSON
+      type: ogr
+    description: OSM Brownfields
+    fields: 
+      id: String
+      area: String
+      building: String
+      changeset: String
+      damage: String
+      "damage: event": String
+      "damage:event": String
+      Digital: String
+      FIXME: Damage Reports where we were unsure about it.
+      hazard_type: String
+      "idp:camp_site": String
+      landuse: String
+      layer: String
+      leisure: String
+      name: String
+      natural: String
+      note: String
+      shop: String
+      source: Imagery Source for this damage report.
+      surface: String
+      timestamp: String
+      uid: String
+      user: String
+      version: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: idp_camp
+    Datasource: 
+      file: /Users/prabhaspokharel/Downloads/idp_camp.geojson
+      layer: OGRGeoJSON
+      type: ogr
+    description: IDP Camps
+    fields: 
+      id: String
+      "amage:event": String
+      area: String
+      building: String
+      changeset: String
+      comment: String
+      damage: String
+      "damage:event": String
+      Digital: String
+      fixme: String
+      "idp:camp_condition": String
+      "idp:camp_site": String
+      "idp:source_20150427": String
+      landuse: String
+      landusw: String
+      leisure: String
+      name: String
+      place: String
+      source: String
+      sport: String
+      timestamp: Time Added
+      tourism: String
+      type: String
+      uid: String
+      user: String
+      version: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 16
+minzoom: 0
+name: Satellite Damage Assessments
