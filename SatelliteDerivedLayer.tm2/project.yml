@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: kll.8fb56087
+  saveCenter: true
+_properties: {}
+attribution: OSM Contributors
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 85.4553
+  - 27.8083
+  - 12
+description: IDP Camps and BrownField (Damaged Areas) derived from Satellite Imagery.
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 16
+minzoom: 0
+name: IDP_BrownField
+source: "mapbox:///kll.460c4d2a"
+styles: 
+  - style.mss
+template: ''
